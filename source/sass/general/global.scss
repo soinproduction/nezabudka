@@ -1,11 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #141414;
+  background-color: #fff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 14px;
-  font-family: Roboto;
+  line-height: normal;
+  font-family: Rubik;
   color: #000;
   word-break: break-word;
   margin: 0 auto;
@@ -41,6 +41,7 @@ a {
 button {
   border: none;
   outline: none;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -101,5 +102,10 @@ input[type=number] {
   z-index: 20;
 }
 
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 
