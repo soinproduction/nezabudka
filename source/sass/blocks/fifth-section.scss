@@ -1,0 +1,43 @@
+.fifth-section {
+  padding-top: 160px;
+  background: #F8FAFF;
+  margin-bottom: 160px;
+}
+
+.fifth-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fifth-box__item {
+  padding: 38px 0 48px;
+  border-top: 1px solid rgba(141, 150, 164, 0.576);
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth-box__inner {
+  max-width: 500px;
+  width: 100%;
+}
+
+.fifth-box__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.fifth-box__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #5B5E67;
+}

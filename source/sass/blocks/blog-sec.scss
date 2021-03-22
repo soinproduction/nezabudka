@@ -1,0 +1,141 @@
+.blog-sec {
+  padding: 160px 0 0;
+  background: linear-gradient(0deg,#fff 18%,#f8faff 18%);
+  margin-bottom: 160px;
+}
+
+.blog-descr {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.blog-top {
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.slide-wrapper {
+  width: 300px;
+  padding: 24px 24px 42px;
+  background-color: #fff;
+}
+
+.slide-wrapper:hover {
+  box-shadow: 0px 30px 44px rgba(45, 79, 170, 0.2);
+}
+
+.slide-wrapper__img {
+  margin-bottom: 25px;
+}
+
+.slide-wrapper__subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.slide-wrapper__descr {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  // line-height: 17px;
+  color: #5B5E67;
+  margin-bottom: 13px;
+  span {
+    color: #6B3BEF;
+  }
+}
+
+.slide-wrapper__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.blog-slider {
+  margin-left: auto;
+  max-width: 1000px;
+  width: 100%;
+  .about-slider__button {
+    top: 80%;
+  }
+  .about-slider-right {
+    left: -220px;
+  }
+  .about-slider-left {
+    left: -350px;
+  }
+}
+
+.slide-wrapper {
+  margin: 0 15px 60px 15px;
+}
+
+.blog-bottom {
+  margin-bottom: 60px;
+}
+
+.blog-tarif {
+  background-image: url(../img/tarif-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 40px 54px rgba(45, 79, 170, 0.3);
+}
+
+.blog-tarif__icon {
+  margin-bottom: 10px;
+}
+
+.blog-tarif__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 64px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.blog-tarif__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.blog-tarif__btn {
+  width: 270px;
+  height: 70px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3766E4;
+}
+
+
+
+

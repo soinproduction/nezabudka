@@ -1,3 +1,134 @@
 .second {
   padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.second-top {
+  padding: 34px 0 60px;
+  border-top: 1px solid #CBD7DF;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.second-top__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  color: #000000;
+}
+
+.second-top__descr {
+  max-width: 660px;
+  padding-right: 50px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.second-bottom__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.second-bottom__item {
+  width: 50%;
+  background: #3766E4;
+  padding: 25px 40px 20px;
+}
+
+.second-bottom__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.second-bottom__item--mode {
+  background-color: #fff;
+  border-bottom: 1px solid #CBD7DF;
+  .second-bottom__text {
+    color: #000000;
+  }
+}
+
+.second-dropdown__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+}
+
+.second-dropdown__top.accordion__active  {
+  svg {
+    transform: scale(-1);
+  }
+}
+
+.second-dropdown__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  user-select: none;
+  cursor: pointer;
+  padding-bottom: 25px;
+}
+
+.second-bottom__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.second-bottom__inner {
+  width: 50%;
+  &:last-child {
+    padding-left: 40px;
+  }
+}
+
+.dropdown-wrapper__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  max-width: 400px;
+  padding: 0px 0 40px;
+
+}
+
+.second-dropdown {
+  border-bottom: 1px solid #CBD7DF;
+  margin-bottom: 25px;
+  &:last-child {
+    border: none;
+  }
+}
+
+.second-bottom__btn {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  width: 270px;
+  height: 70px;
+  background: #3766E4;
+  border-radius: 8px;
+  margin: 0 auto;
 }

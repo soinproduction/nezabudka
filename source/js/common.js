@@ -1,12 +1,64 @@
 
-  $('.delivery-slider').slick({
+  $('.about-slider').slick({
     accessibility: true,
     arrows: true,
-    dots: true,
+    dots: false,
+    slidesToShow:1,
     speed: 1500,
     dotsClass: "delivery-slider__dots",
-    prevArrow: '<div class="delivery-slider-left delivery-slider__button"><img src="img/chevron-left.svg" alt="Слайд"></div>',
-    nextArrow: '<div class="delivery-slider-right delivery-slider__button"><img src="img/chevron-right.svg" alt="Слайд"></div>',
+    prevArrow: '<button class="about-slider-left about-slider__button"><img src="img/arrow-left-hover.svg" alt="Слайд"></button>',
+    nextArrow: '<button class="about-slider-right about-slider__button"><img src="img/arrow-right-hover.svg" alt="Слайд"></button>',
+    responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          dots: false,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          dots: true,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          slidesToScroll: 1,
+          dots: true,
+        }
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0px',
+        }
+      }
+    ]
+  });
+
+  $('.blog-slider').slick({
+    accessibility: true,
+    arrows: true,
+    dots: false,
+    slidesToShow:3,
+    speed: 1500,
+    dotsClass: "delivery-slider__dots",
+    prevArrow: '<button class="about-slider-left about-slider__button"><img src="img/arrow-left-hover.svg" alt="Слайд"></button>',
+    nextArrow: '<button class="about-slider-right about-slider__button"><img src="img/arrow-right-hover.svg" alt="Слайд"></button>',
     responsive: [
       {
         breakpoint: 1199,
@@ -50,7 +102,7 @@
   });
 
   var $status = $('.count');
-  var $slickElement = $('.main-slider2');
+  var $slickElement = $('.about-slider');
 
   $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
       var i = (currentSlide ? currentSlide : 0) + 1;

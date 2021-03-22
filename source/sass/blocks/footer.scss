@@ -1,0 +1,100 @@
+.footer {
+  border-top: 1px solid #CBD7DF;
+  padding-top: 80px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 160px;
+}
+
+.footer__logo {
+  margin-bottom: 50px;
+}
+
+.footer-name {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5B5E67;
+  margin-bottom: 10px;
+}
+
+.footer__adress {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.footer__item:first-child, .footer-bottom__item:first-child {
+  width: 25%;
+}
+
+.footer__item:last-child, .footer-bottom__item:last-child {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-coll:first-of-type {
+  width: 32%;
+}
+
+.footer-coll:last-of-type {
+  width: 50%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-coll__nav {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.footer-coll__item {
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer-coll__tel {
+  margin-bottom: 48px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.social-link + .social-link {
+  margin-left: 30px;
+}
+
+.footer-bottom__link + .footer-bottom__link {
+  margin-left: 13px;
+}
+
+.footer-bottom__item {
+  align-items: center;
+}
+
+.footer-bottom__item {
+  display: flex;
+  align-items: center;
+}
