@@ -54,3 +54,34 @@
   justify-content: center;
   color: #FFFFFF;
 }
+
+.first-item {
+  position: relative;
+  .main-vidget {
+    bottom: 174px;
+    left: -140px;
+    width: 267px;
+    height: 80px;
+    padding: 14px 32px 9px;
+    .page-vidjet__title {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .page-vidjet__descr {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      color: #000000;
+    }
+  }
+  .page-vidjet::before {
+    top: -30%;
+    left: -8%;
+  }
+}

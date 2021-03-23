@@ -1,0 +1,86 @@
+.card-sec {
+  padding-top: 90px;
+  padding-bottom: 160px;
+}
+
+.card-box {
+
+}
+
+.card-big {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.card-big__item {
+  width: 48%;
+  background: #F8FAFF;
+  padding: 20px 30px 40px 20px;
+  &--mode {
+    padding: 24px 24px 42px;
+    width: 100%;
+    max-width: 300px;
+    .card-big__text {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 130%;
+      color: #000000;
+    }
+  }
+}
+
+.card-big__icon {
+  margin-bottom: 30px;
+}
+
+.card-big__tit {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0BAEBD;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  &--mode {
+    color: #6B3BEF;
+  }
+  &--mark {
+    color: #0BC55E;
+  }
+}
+
+.card-big__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.blog-tarif__text--mode {
+  color: #8EADFF;
+  margin-bottom: 16px;
+}
+
+.blog-tarif--mode {
+  margin-bottom: 90px;
+}
+
+.card-box__btn {
+  height: 80px;
+  width: 100%;
+  background: #F8FAFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #3766E4;
+}

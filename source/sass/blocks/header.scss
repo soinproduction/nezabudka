@@ -1,6 +1,7 @@
 header {
   padding: 20px 0 15px;
   background: #F8FAFF;
+  border-bottom: 1px solid #D9E1EE;
 }
 
 .header {
@@ -87,4 +88,8 @@ header {
 
 .header-buttons__btn + .header-buttons__btn {
   margin-left: 25px;
+}
+
+.mobile__menu-box {
+  display: none;
 }
