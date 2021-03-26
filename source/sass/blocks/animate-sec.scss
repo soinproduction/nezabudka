@@ -4,9 +4,8 @@
   font-weight: 500;
   font-size: 76px;
   color: #CBD7DF;
-  width: 100%;
+  // width: 100%;
   white-space: nowrap;
-  overflow-x: scroll;
   user-select: none;
   display: flex;
   align-items: center;
@@ -38,6 +37,17 @@
   }
 }
 
+.animate-sec__wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.animate-img {
+  margin: 0 22px;
+}
+
 .second-top__title {
   font-family: Rubik;
   font-style: normal;
@@ -46,7 +56,7 @@
   line-height: 100%;
   color: #000000;
   span {
-    margin-right: -100px;
+    margin-right: -200px;
     text-align: right;
     display: block;
   }

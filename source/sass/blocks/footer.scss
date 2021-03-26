@@ -86,6 +86,12 @@
   margin-left: 30px;
 }
 
+.social-link:hover {
+  svg {
+    opacity: .75;
+  }
+}
+
 .footer-bottom__link + .footer-bottom__link {
   margin-left: 13px;
 }
@@ -97,4 +103,16 @@
 .footer-bottom__item {
   display: flex;
   align-items: center;
+}
+
+.footer-bottom__link {
+  svg {
+    fill: #000;
+  }
+}
+
+.footer-bottom__link:hover {
+  svg {
+    fill: #3766E4;
+  }
 }

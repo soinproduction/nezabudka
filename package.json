@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "@gulp-sourcemaps/identity-map": "^2.0.1",
+    "animate.css": "^4.1.1",
     "autoprefixer": "^10.0.1",
     "browser-sync": "^2.26.14",
     "deep-extend": "^0.6.0",

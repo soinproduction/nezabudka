@@ -39,6 +39,21 @@ header {
   font-weight: 500;
   font-size: 14px;
   color: #000000;
+  &:hover {
+    color: #5785FF;
+  }
+}
+
+.header-phone:hover {
+  .header-phone__link, .header-phone__title{
+    color: #5785FF;
+  }
+}
+
+.footer-coll__nav:hover,
+.footer-coll__tel:hover,
+.privacy:hover {
+  color: #5785FF;
 }
 
 .header-phone {
@@ -84,6 +99,27 @@ header {
     background: #3766E4;
     color: #fff;
   }
+}
+
+.header-buttons__btn:hover,
+.blog-tarif__btn:hover,
+.page-bottom__btn:hover,
+.sexth-btn--mode:hover {
+  color: #5785FF !important;
+  box-shadow: 0px 7px 20px rgba(45, 79, 170, 0.3);
+  border: 1px solid #5785FF;
+  background-color: #fff !important;
+}
+
+ .header-buttons__btn--solid:hover,
+ .second-bottom__btn:hover,
+ .sexth-btn:hover,
+ .second-slide__btn:hover,
+ .first-item__btn:hover {
+  background: #5785FF !important;
+  box-shadow: 0px 7px 20px rgba(45, 79, 170, 0.3);
+  color: #fff !important;
+
 }
 
 .header-buttons__btn + .header-buttons__btn {
