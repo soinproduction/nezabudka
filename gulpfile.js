@@ -112,7 +112,7 @@ gulp.task("copy", () => {
       "source/fonts/**/*.{woff,woff2}",
       "source/img/**/*.{png,jpg,jpeg,svg}",
       "source/*.ico",
-      "source/_headers.txt"
+      "source/netlify.toml"
     ], {
       base: "source"
     })
