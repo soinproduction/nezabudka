@@ -315,4 +315,13 @@ template {
 [hidden] {
   display: none;
 }
+
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+:focus {
+  outline: 0;
+}
 /* stylelint-enable */

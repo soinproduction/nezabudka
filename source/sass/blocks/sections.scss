@@ -1,0 +1,119 @@
+//---------------------------------------------sections
+.section {
+	position: relative;
+
+	width: 100%;
+
+
+	font-size: 10px;
+
+	overflow: hidden;
+
+	@include bp($point_2, min) {
+		padding: 13.6rem $gl_indent;
+	}
+
+	@include bp($point_3) {
+		padding: 4rem $gl_indent_mob;
+	}
+
+}
+
+
+.section_in {
+	max-width: $page_width;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section_head {
+
+	width: 100%;
+
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	@include bp($point_2, min) {
+		@include flex_block(row, wrap, flex-start);
+		margin-bottom: 1rem;
+	}
+
+	@include bp($point_3) {
+		margin-bottom: 1.2rem;
+	}
+}
+
+.section_head_col {
+	@include bp($point_2, min) {
+		width: 50%;
+
+		&:first-child {
+			padding-right: 2rem;
+		}
+	}
+
+	@include bp($point_3) {
+		width: 100%;
+		//max-width: 40rem;
+		margin-bottom: 1rem;
+	}
+}
+
+.section_title_w {
+	width: 100%;
+
+	@include bp($point_2, min) {
+		max-width: 50.6rem;
+	}
+}
+
+.section_title {
+	width: 100%;
+
+	font-weight: 500;
+	color: $black;
+	line-height: 1.1;
+
+	@include bp($point_9, min) {
+		font-size: 7rem;
+	}
+
+	@media (min-width: $point_2) and (max-width: $point_9 - 1) {
+		font-size: 5rem;
+	}
+
+	@include bp($point_3) {
+		font-size: 4.1rem;
+	}
+}
+
+.section_descr_w {
+	width: 100%;
+
+	@include bp($point_2, min) {
+		max-width: 61.8rem;
+	}
+}
+
+.section_descr {
+	width: 100%;
+
+	font-size: 2.2rem;
+
+
+	@include bp($point_2, min) {
+		font-size: 2.2rem;
+		line-height: 1.7;
+	}
+
+	@media (min-width: $point_2) and (max-width: $point_9 - 1) {
+		font-size: 1.8rem;
+	}
+
+	@include bp($point_3) {
+		font-size: 1.6rem;
+		line-height: 1.5;
+	}
+}

@@ -9,6 +9,8 @@
   <link rel="preload" href="fonts/Rubik-Regular.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/Rubik-Medium.woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </head>
   <body>
     <header>
@@ -177,7 +179,7 @@
         <div class="container">
           <div class="first">
             <div class="first-item">
-              <h1 class="first-item__title">
+              <h1 class="first-item__title fadeEl">
                 Незабудка<span class="first-item__sibol">®</span><br>
                 программа <br>
                 <p class="first-item__descr">
@@ -185,16 +187,15 @@
                     программа лояльности
                 </p> лояльности
               </h1>
-              <button class="first-item__btn">
+              <button class="first-item__btn fadeEl">
                 Получить демо
               </button>
             </div>
             <div class="first-item">
-              <picture>
-                <source type="image/webp" srcset="img/bg1.webp">
-                <img class="first-item__img" src="img/bg1.png" alt="Девушка">
-              </picture>
-              <div class="page-vidjet main-vidget">
+              <div class="anim_mask_w fadeEl">
+                <div class="anim_mask animMask"></div>
+              </div>
+              <div class="page-vidjet main-vidget heroWidget">
                 <h3 class="page-vidjet__title">
                   Ольга
                 </h3>
@@ -210,16 +211,16 @@
         <div class="container">
           <div class="second">
             <div class="second-top">
-              <h2 class="second-top__title">
+              <h2 class="second-top__title fadeEl">
                 Возможности
               </h2>
-              <p class="second-top__descr">
+              <p class="second-top__descr fadeEl">
                 Незабудка позволит идентифицировать клиента eще до его расчета на кассе, сообщит кассиру о статусе бонусов и скидок посетителя,
                 подсчитает количество посетителей без дублирования повторных и выдаст статистику по покупкам.
               </p>
             </div>
             <div class="second-bottom">
-              <div class="second-bottom__top">
+              <div class="second-bottom__top fadeEl">
                 <div class="second-bottom__item">
                   <h3 class="second-bottom__text">
                     Автоматическая идентификация <br>
@@ -234,13 +235,13 @@
                 </div>
               </div>
               <div class="second-bottom__bottom">
-                <div class="second-bottom__inner">
+                <div class="second-bottom__inner fadeEl">
                   <picture>
                     <source type="image/webp" srcset="img/second-bg.webp">
                     <img class="second-bottom__img" src="img/second-bg.png" alt="image">
                   </picture>
                 </div>
-                <div class="second-bottom__inner">
+                <div class="second-bottom__inner fadeEl">
                   <div class="second-dropdown">
                     <div class="second-dropdown__top accordion">
                       <h4 class="second-dropdown__title">
@@ -314,87 +315,87 @@
                   </div>
                 </div>
               </div>
-              <button class="second-bottom__btn">
+              <button class="second-bottom__btn fadeEl">
                 Заказать
               </button>
             </div>
             <div class="second-mobile">
                 <div class="mobile-box">
-                  <h2 class="mobile-box__title">
+                  <h2 class="mobile-box__title fadeEl">
                     Автоматическая идентификация
                     посетителей торговой точки
                   </h2>
                   <div class="second-slider">
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Контроль персонала
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
+                          Заказать
+                        </button>
+                      </div>
+                    </div>
+                    <div class="second-slide">
+                      <div class="second-slide__wrapper ">
+                        <div class="second-slide__image fadeEl">
+                          <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
+                        </div>
+                        <h3 class="second-slide__title fadeEl">
+                          Контроль персонала
+                        </h3>
+                        <p class="second-slide__text fadeEl">
+                          Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
+                        </p>
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Контроль персонала
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Контроль персонала
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
-                          Заказать
-                        </button>
-                      </div>
-                    </div>
-                    <div class="second-slide">
-                      <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
-                          <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
-                        </div>
-                        <h3 class="second-slide__title">
-                          Контроль персонала
-                        </h3>
-                        <p class="second-slide__text">
-                          Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
-                        </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
                   </div>
-                  <div class="mobile-count2"></div>
+                  <div class="mobile-count2 fadeEl"></div>
                 </div>
 
                 <div class="mobile-box">
-                  <h2 class="mobile-box__title">
+                  <h2 class="mobile-box__title fadeEl">
                     Программа лояльности c технологией распознавания лиц
                   </h2>
                   <div class="second-slider">
@@ -402,100 +403,262 @@
 
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Мобильное приложение
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Мобильное приложение
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Мобильное приложение
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
                     <div class="second-slide">
                       <div class="second-slide__wrapper">
-                        <div class="second-slide__image">
+                        <div class="second-slide__image fadeEl">
                           <img class="second-slide__img" src="img/second-bg.png" alt="слайд">
                         </div>
-                        <h3 class="second-slide__title">
+                        <h3 class="second-slide__title fadeEl">
                           Мобильное приложение
                         </h3>
-                        <p class="second-slide__text">
+                        <p class="second-slide__text fadeEl">
                           Распознавание посетителей с отражением в программе лояльности количества посещений, покупок, контактных данных.
                         </p>
-                        <button class="second-slide__btn">
+                        <button class="second-slide__btn fadeEl">
                           Заказать
                         </button>
                       </div>
                     </div>
 
                   </div>
-                  <div class="mobile-count2"></div>
+                  <div class="mobile-count2 fadeEl"></div>
                 </div>
             </div>
           </div>
         </div>
       </section>
       <section class="animate-sec">
-        <div class="animate-sec__wrapper">
-          <p class="animate-text">
-            распознавание посетителей
-          </p>
-          <img src="img/animate-text.svg" alt="icon" class="animate-img">
-          <p class="animate-text">статистики посещений</p>
+        <div class="animate-sec_in">
+          <div class="animate-sec__wrapper">
+            <p class="animate-text">
+              распознавание посетителей
+            </p>
+            <img src="img/animate-text.svg" alt="icon" class="animate-img">
+            <p class="animate-text">статистики посещений</p>
+          </div>
+          <div class="animate-sec__wrapper">
+            <p class="animate-text">
+              распознавание посетителей
+            </p>
+            <img src="img/animate-text.svg" alt="icon" class="animate-img">
+            <p class="animate-text">статистики посещений</p>
+          </div>
+          <div class="animate-sec__wrapper">
+            <p class="animate-text">
+              распознавание посетителей
+            </p>
+            <img src="img/animate-text.svg" alt="icon" class="animate-img">
+            <p class="animate-text">статистики посещений</p>
+          </div>
+          <div class="animate-sec__wrapper">
+            <p class="animate-text">
+              распознавание посетителей
+            </p>
+            <img src="img/animate-text.svg" alt="icon" class="animate-img">
+            <p class="animate-text">статистики посещений</p>
+          </div>
         </div>
       </section>
-      <section class="third-section">
-        <div class="container">
-          <div class="third-sec">
-            <div class="second-top third-sec__title">
-              <h2 class="second-top__title">
-                Как работает <br><span>сервис</span>
-              </h2>
-              <p class="second-top__descr">
-                Незабудка позволит
-                идентифицировать клиента
-                еще до его расчета на кассе, сообщит кассиру о статусе бонусов и скидок посетителя.
-              </p>
+      <section class="section">
+        <div class="section_in">
+          <div class="section_head">
+            <div class="section_head_col">
+              <div class="section_title_w">
+                <h2 class="section_title fadeEl">Как работает сервис</h2>
+              </div>
             </div>
-            <div class="custom-slider">
-
+            <div class="section_head_col">
+              <div class="section_descr_w fadeEl">
+                <div class="section_descr">
+                  <p>Незабудка позволит идентифицировать клиента еще до его расчета на кассе, сообщит кассиру о статусе бонусов и скидок посетителя.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="anim_slider_block">
+            <div class="slider_thumbs_w">
+              <div class="slider_thumbs">
+                <div class="slider_thumbs_decor"><img class="slider_thumbs_decor_img" src="img/slider_thumbs_decor.svg" alt=""></div>
+                <div class="slider_thumbs_item_w mobileThumbSlider">
+                  <div class="slider_thumbs_item pos_1_mod">
+                    <div class="slider_thumbs_item_top">
+                      <div class="slider_thumbs_item_top_active">
+                        <svg class="slider_thumbs_circle_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+                          <circle class="countdown_background" cx="17" cy="17" r="15.5"></circle>
+                          <circle class="countdown_progress" cx="17" cy="17" r="15.5"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider_thumbs_item_img_w"><img class="slider_thumbs_item_img" src="img/slider_thumbs_item_img_1.svg" alt=""></div>
+                      <div class="slider_thumbs_item_title">Вебкамера/ 2 планшета</div>
+                      <div class="slider_thumbs_item_top_progress">
+                        <div class="slider_thumbs_item_top_progress_in"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider_thumbs_item pos_2_mod">
+                    <div class="slider_thumbs_item_top">
+                      <div class="slider_thumbs_item_top_active">
+                        <svg class="slider_thumbs_circle_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+                          <circle class="countdown_background" cx="17" cy="17" r="15.5"></circle>
+                          <circle class="countdown_progress" cx="17" cy="17" r="15.5"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider_thumbs_item_img_w"><img class="slider_thumbs_item_img" src="img/slider_thumbs_item_img_2.svg" alt=""></div>
+                      <div class="slider_thumbs_item_title">Покупатель</div>
+                      <div class="slider_thumbs_item_top_progress">
+                        <div class="slider_thumbs_item_top_progress_in"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider_thumbs_item pos_3_mod">
+                    <div class="slider_thumbs_item_top">
+                      <div class="slider_thumbs_item_top_active">
+                        <svg class="slider_thumbs_circle_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+                          <circle class="countdown_background" cx="17" cy="17" r="15.5"></circle>
+                          <circle class="countdown_progress" cx="17" cy="17" r="15.5"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider_thumbs_item_img_w"><img class="slider_thumbs_item_img" src="img/slider_thumbs_item_img_3.svg" alt=""></div>
+                      <div class="slider_thumbs_item_title">Рабочее место кассира</div>
+                      <div class="slider_thumbs_item_top_progress">
+                        <div class="slider_thumbs_item_top_progress_in"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider_thumbs_item pos_4_mod">
+                    <div class="slider_thumbs_item_top">
+                      <div class="slider_thumbs_item_top_active">
+                        <svg class="slider_thumbs_circle_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+                          <circle class="countdown_background" cx="17" cy="17" r="15.5"></circle>
+                          <circle class="countdown_progress" cx="17" cy="17" r="15.5"></circle>
+                        </svg>
+                      </div>
+                      <div class="slider_thumbs_item_img_w"><img class="slider_thumbs_item_img" src="img/slider_thumbs_item_img_4.svg" alt=""></div>
+                      <div class="slider_thumbs_item_title">Рабочее место администратора</div>
+                      <div class="slider_thumbs_item_top_progress">
+                        <div class="slider_thumbs_item_top_progress_in"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="anim_slider_w">
+              <div class="anim_slider animSlider">
+                <div class="anim_slider_item">
+                  <div class="anim_slider_item_in">
+                    <div class="anim_slider_img_w"><img class="anim_slider_img" src="img/anim_slider_img_1.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="anim_slider_item">
+                  <div class="anim_slider_item_in">
+                    <div class="anim_slider_img_w"><img class="anim_slider_img" src="img/anim_slider_img_2.png" alt=""></div>
+                    <div class="anim_slider_info_w">
+                      <div class="anim_slider_info_item">
+                        <div class="info_item_decor"><img class="info_item_decor_img" src="img/info_item_decor_img_1.svg" alt=""></div>
+                        <div class="anim_slider_info_item_in">
+                          <h4 class="info_item_title">«Бонус»</h4>
+                          <div class="percentage_info">
+                            <div class="percentage_col">
+                              <div class="percentage_title">Накоплено балов</div>
+                            </div>
+                            <div class="percentage_col">
+                              <div class="percentage_value"><span>8</span>/10</div>
+                            </div>
+                          </div>
+                          <div class="percentage_line_w"><span class="percentage_line" style="transform: translateX(80%)"></span></div>
+                        </div>
+                      </div>
+                      <div class="anim_slider_info_item">
+                        <div class="info_item_decor"><img class="info_item_decor_img" src="img/info_item_decor_img_2.svg" alt=""></div>
+                        <div class="anim_slider_info_item_in">
+                          <h4 class="info_item_title">Скидка</h4>
+                          <div class="percentage_info">
+                            <div class="percentage_col">
+                              <div class="percentage_title">Начислено</div>
+                            </div>
+                            <div class="percentage_col">
+                              <div class="percentage_value">5<sup>%</sup></div>
+                            </div>
+                          </div>
+                          <div class="percentage_line_w"><span class="percentage_line" style="transform: translateX(50%)"></span></div>
+                        </div>
+                      </div>
+                      <div class="anim_slider_info_item">
+                        <div class="info_item_decor"><img class="info_item_decor_img" src="img/info_item_decor_img_3.svg" alt=""></div>
+                        <div class="anim_slider_info_item_in">
+                          <h4 class="info_item_title">Любимые товары</h4>
+                          <div class="info_item_descr">Бытовая химия марки BioMio, подгузники Pampers.</div>
+                          <div class="percentage_link_w"><a class="percentage_link" href="#">Смотреть список</a><span class="percentage_link_icon"><img class="percentage_link_icon_img" src="img/arrow.svg" alt=""></span></div>
+                        </div>
+                      </div>
+                      <div class="anim_slider_info_item">
+                        <div class="info_item_decor"><img class="info_item_decor_img" src="img/info_item_decor_img_4.svg" alt=""></div>
+                        <div class="anim_slider_info_item_in">
+                          <h4 class="info_item_title">Ольга</h4>
+                          <div class="info_item_descr">Участник программы «Бонус»</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="anim_slider_item">
+                  <div class="anim_slider_item_in">
+                    <div class="anim_slider_img_w"><img class="anim_slider_img" src="img/anim_slider_img_3.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="anim_slider_item">
+                  <div class="anim_slider_item_in">
+                    <div class="anim_slider_img_w"><img class="anim_slider_img" src="img/anim_slider_img_4.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -503,13 +666,13 @@
       <section class="frouth-section">
         <div class="container">
           <div class="frouth">
-            <h2 class="frouth__title">
+            <h2 class="frouth__title fadeEl">
               Незабудка позволит <br> идентифицировать клиента <br> еще до его расчета на <br> кассе.
             </h2>
-            <p class="frouth__text">
+            <p class="frouth__text fadeEl">
               Покупатели будут вам благодарны за избавление от пластиковых карт и автоматический учет их привилегий.
             </p>
-            <div class="frouth__icon">
+            <div class="frouth__icon fadeEl">
               <svg width="108" height="110">
                 <use href="img/sprite/sprite.svg#4icon"></use>
               </svg>
@@ -521,12 +684,12 @@
         <div class="container">
           <div class="fifth">
             <div class="second-top ">
-              <h2 class="second-top__title">
+              <h2 class="second-top__title fadeEl">
                 Прeимущества
               </h2>
             </div>
             <div class="fifth-box">
-              <div class="fifth-box__item">
+              <div class="fifth-box__item fadeEl">
                 <div class="fifth-box__icon">
                   <svg width="56" height="58">
                     <use href='img/sprite/sprite.svg#icon'></use>
@@ -542,7 +705,7 @@
                 </div>
               </div>
 
-              <div class="fifth-box__item">
+              <div class="fifth-box__item fadeEl">
                 <div class="fifth-box__icon">
                   <svg width="56" height="58">
                     <use href='img/sprite/sprite.svg#icon2'></use>
@@ -558,7 +721,7 @@
                 </div>
               </div>
 
-              <div class="fifth-box__item">
+              <div class="fifth-box__item fadeEl">
                 <div class="fifth-box__icon">
                   <svg width="56" height="58">
                     <use href='img/sprite/sprite.svg#icon3'></use>
@@ -574,7 +737,7 @@
                 </div>
               </div>
 
-              <div class="fifth-box__item">
+              <div class="fifth-box__item fadeEl">
                 <div class="fifth-box__icon">
                   <svg width="56" height="58">
                     <use href='img/sprite/sprite.svg#icon4'></use>
@@ -597,11 +760,11 @@
         <div class="container">
           <div class="sexth">
             <div class="second-top sexth-top">
-              <h2 class="second-top__title">
+              <h2 class="second-top__title fadeEl">
                 Как подключиться
               </h2>
               <div class="second-top__box">
-                <p class="sexth-top__box">
+                <p class="sexth-top__box fadeEl">
                   Для более подробной информации <br> позвоните нам в офис
                   <a href="tel:375293333333" class="sexth-top__link">
                     +375 (29) 333-33-33
@@ -611,15 +774,15 @@
             </div>
 
             <div class="sexth-row">
-              <div class="sexth-row__item">
-                <h3 class="sexth-row__title">
+              <div class="sexth-row__item fadeEl">
+                <h3 class="sexth-row__title ">
                   Юридическим лицам
                 </h3>
                 <p class="sexth-row__subtitle">
                   Подробнее про оборудование
                 </p>
               </div>
-              <div class="sexth-row__item">
+              <div class="sexth-row__item fadeEl">
                 <ul class="sexth-list">
                   <li class="sexth-list__item">
                     <span class="sexth-list__number">
@@ -684,12 +847,12 @@
             </div>
 
             <div class="sexth-row">
-              <div class="sexth-row__item">
+              <div class="sexth-row__item fadeEl">
                 <h3 class="sexth-row__title">
                   Физическческим лицам
                 </h3>
               </div>
-              <div class="sexth-row__item">
+              <div class="sexth-row__item fadeEl">
                 <ul class="sexth-list">
                   <li class="sexth-list__item">
                     <span class="sexth-list__number">
@@ -723,12 +886,12 @@
       <section class="about-sec">
         <div class="container">
           <div class="about">
-            <div class="second-top about-top">
+            <div class="second-top about-top fadeEl">
               <h2 class="second-top__title  about-top__title">
                 Что о нас <br> <span>говорят</span>
               </h2>
             </div>
-            <div class="about-bottom">
+            <div class="about-bottom fadeEl">
               <div class="about-slider">
 
                 <div class="about-slider__wrapper">
@@ -819,7 +982,7 @@
         <div class="container">
           <div class="blog">
             <div class="second-top blog-top">
-              <div class="blog-top__wrapper">
+              <div class="blog-top__wrapper fadeEl">
                 <h2 class="second-top__title">
                   Блог
                 </h2>
@@ -828,7 +991,7 @@
                    нашего сервиса
                 </p>
               </div>
-              <div class="second-top__box">
+              <div class="second-top__box fadeEl">
                 <p class="sexth-top__box">
                   <a href="№" class="sexth-top__link">
                     Все статьи
@@ -836,7 +999,7 @@
                 </p>
               </div>
             </div>
-            <div class="blog-bottom">
+            <div class="blog-bottom fadeEl">
               <div class="blog-slider">
                 <div class="blog-slide">
                   <a href="#" class="slide-wrapper">
@@ -935,7 +1098,7 @@
                 </div>
               </div>
             </div>
-            <div class="blog-tarif">
+            <div class="blog-tarif fadeEl">
               <div class="blog-tarif__icon">
                 <svg width='140' height='140'>
                   <use href="img/sprite/sprite.svg#5icon"></use>
@@ -1066,8 +1229,13 @@
         </div>
       </div>
     </footer>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/common.min.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/DrawSVGPlugin.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/isMobile.min.js"></script>
+    <script src="js/lottie_svg.min.js"></script>
+    <script src="js/common.js"></script>
   </body>
 </html>

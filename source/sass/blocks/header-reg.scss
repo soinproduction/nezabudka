@@ -1,0 +1,183 @@
+.header-login__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.header-login__image, .hover-login__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.login-box {
+  width: 300px;
+
+}
+
+.header-reg {
+  position: relative;
+}
+
+.hover-login {
+  display: none;
+  // top: 115%;
+  border: 1px solid #CBD7DF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  position: absolute;
+  width: 100%;
+  padding: 17px 24px 24px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 80px;
+    width: 17.69px;
+    height: 17.69px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    border-top: 1px solid #CBD7DF;
+    border-left: 1px solid #CBD7DF;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    top: -20px;
+    left: 0;
+  }
+}
+
+.hover-login {
+  margin-top: 5px;
+}
+
+
+.hover-login__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.hover-login__img {
+  margin-right: 16px;
+  width: 60px;
+  height: 60px;
+}
+
+.hover-login__name , .header-login__name{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.hover-login__status, .header-login__status {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5B5E67;
+}
+
+.hover-login__button {
+  padding: 12px 0;
+  border-top: 1px solid #E7ECF3;
+  border-bottom: 1px solid #E7ECF3;
+  margin-bottom: 24px;
+}
+
+.hover-login__btn {
+  width: 100%;
+  background: #3766E4;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.help-link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5B5E67;
+  margin-bottom: 24px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5B5E67;
+  svg {
+    margin-left: 6px;
+  }
+}
+
+.hover-login__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hover-login__exit {
+  border: 1px solid #3766E4;
+  border-radius: 8px;
+  width: 144px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3766E4;
+}
+
+.login-box:hover {
+  .hover-login {
+    display: block;
+  }
+  .header-login__name, .header-login__status {
+    color: #3766E4;
+  }
+}
+
+.hover-login__btn:hover  {
+  background: #5785FF;
+   box-shadow: 0px 7px 20px rgba(45, 79, 170, 0.3);
+}
+
+.hover-login__exit:hover {
+  box-shadow: 0px 7px 20px rgba(45, 79, 170, 0.3);
+}

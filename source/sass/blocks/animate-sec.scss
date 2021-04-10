@@ -13,6 +13,7 @@
 }
 
 .animate-sec {
+  overflow: hidden;
   padding: 30px 0;
   position: relative;
   &::before {
@@ -37,11 +38,21 @@
   }
 }
 
+.animate-sec_in {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+
 .animate-sec__wrapper {
   display: flex;
   align-items: center;
-  width: 100%;
-  overflow-x: scroll;
+  //width: 100%;
+  //overflow-x: scroll;
+  padding: 0 30px;
+  flex: none;
 }
 
 .animate-img {

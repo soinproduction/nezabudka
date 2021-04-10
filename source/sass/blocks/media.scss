@@ -74,6 +74,12 @@
 
 }
 
+@media (min-width: 1200px) {
+  .first-item:last-child {
+    width: 40%;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   body,
   html {
