@@ -5,7 +5,7 @@
 
 .second-top {
   padding: 34px 0 60px;
-  border-top: 1px solid #CBD7DF;
+  border-top: 1px solid #cbd7df;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -33,13 +33,41 @@
 .second-bottom__top {
   display: flex;
   justify-content: space-between;
-  // margin-bottom: 35px;
+}
+
+.second-bottom__img {
+  margin-top: 30px;
 }
 
 .second-bottom__item {
   width: 50%;
-  background: #3766E4;
-  padding: 25px 40px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #cbd7df;
+  padding: 25px 40px 25px;
+  color: #000000;
+  user-select: none;
+  cursor: pointer;
+  &--mode {
+    background: #3766e4;
+    border-bottom: 1px solid #cbd7df;
+    .second-bottom__text {
+      color: #ffffff;
+    }
+  }
+  &:hover {
+    background: #3766e4;
+    border-bottom: 1px solid #cbd7df;
+    .second-bottom__text {
+      color: #ffffff;
+    }
+  }
+}
+
+.section_title__span {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: -10%;
 }
 
 .second-bottom__text {
@@ -48,15 +76,6 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
-  color: #FFFFFF;
-}
-
-.second-bottom__item--mode {
-  background-color: #fff;
-  border-bottom: 1px solid #CBD7DF;
-  .second-bottom__text {
-    color: #000000;
-  }
 }
 
 .second-dropdown__top {
@@ -65,19 +84,19 @@
   justify-content: space-between;
   padding-left: 40px;
   &:hover {
-    background-color: #3766E4;
+    background-color: #3766e4;
     .second-dropdown__title {
       border: none;
       color: #fff;
       position: relative;
       &::before {
         position: absolute;
-        content: '';
+        content: "";
         height: 100%;
         width: 100%;
         right: -100%;
         top: 0;
-        background-color: #3766E4;
+        background-color: #3766e4;
       }
     }
     svg {
@@ -90,7 +109,7 @@
   }
 }
 
-.second-dropdown__top.accordion__active  {
+.second-dropdown__top.accordion__active {
   svg {
     transform: scale(-1);
   }
@@ -107,7 +126,7 @@
   cursor: pointer;
   padding-bottom: 25px;
   padding-top: 25px;
-  border-bottom: 1px solid #CBD7DF;
+  border-bottom: 1px solid #cbd7df;
   &:last-child {
     border: none;
   }
@@ -139,11 +158,9 @@
   color: #000000;
   max-width: 400px;
   padding: 0px 0 40px 40px;
-
 }
 
 .second-dropdown {
-
 }
 
 .second-bottom__btn {
@@ -155,10 +172,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 270px;
   height: 70px;
-  background: #3766E4;
+  background: #3766e4;
   border-radius: 8px;
   margin: 0 auto;
 }

@@ -1,6 +1,7 @@
 .card-sec {
   padding-top: 90px;
   padding-bottom: 160px;
+
 }
 
 .card-box {
@@ -17,6 +18,11 @@
   width: 48%;
   background: #F8FAFF;
   padding: 20px 30px 40px 20px;
+  transition: all .4s;
+  &:hover {
+    box-shadow: 0px 30px 44px rgba(45, 79, 170, 0.2);
+
+  }
   &--mode {
     padding: 24px 24px 42px;
     width: 100%;
