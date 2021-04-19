@@ -211,6 +211,10 @@
   @include bp($point_3) {
     display: none;
   }
+
+  .slider_thumbs_item:hover & {
+    opacity: 1;
+  }
 }
 
 .slider_thumbs_circle_line {
@@ -319,12 +323,17 @@
   width: 100%;
   height: 100%;
 
+  opacity: 0;
+  transform: translateX(-101%);
+
   background: #1378e8;
 }
 
 .anim_slider_w {
 
-  pointer-events: none;
+  @include bp($point_1, min) {
+    pointer-events: none;
+  }
 
   @include bp($point_2, min) {
     margin-left: auto;
